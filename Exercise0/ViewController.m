@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+//#import <Demo/Demo.h>
 
 @interface ViewController ()
 
@@ -16,8 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    NSMutableDictionary *dic = [[NSMutableDictionary alloc]init];
+    [dic setObject:@"11" forKey:@"age"];
+    
+    
+    
+    
+    
 }
+
 
 
 @end

@@ -11,6 +11,10 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+//        NSObject *objc = [[NSObject alloc] init];
+        
+        NSLog(@"Hello, World!");
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
